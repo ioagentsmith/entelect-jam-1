@@ -10,7 +10,7 @@ public class LaserBoltMovement : MonoBehaviour {
     void Start() {
         body = GetComponent<Rigidbody2D>();
 
-        body.AddForce(new Vector2(0, speed));
+        body.AddForce(new Vector2(0, -speed));
     }
 
     void Update() {
